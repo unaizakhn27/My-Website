@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Novastore Website</title>
+     <!-- <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap%22" rel="stylesheet">  -->
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/cssall.min.css"
+    />
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navbar -->
+     <nav class="navbar">
+        <h2>Novastore</h2>
+
+        <div class="links">
+            <a href="#Home">Home</a>
+             <a href="#About">About</a>
+              <a href="#Products">Products</a>
+               <a href="#Contact">Contact</a>
+             </div>
+             <div class="menu-icon">
+                <i class="fa-solid fa-bars-straggerd" onclick="toggleMenu()"></i>
+             </div>
+             </nav>
+             <!-- hero section -->
+              <section class="Hero" id="Home">
+                <div class="Hero-text">
+                    <h1>Welcome to Novastore</h1>
+                    <p>Discover quality products at affordable prices</p>
+                    <a href="#Products" class="btn">Shop Now</a>
+                </div>
+                <img src="https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=700%22" alt="Store interior">
+              </section>
+              <!-- about section -->
+               <section class="About" id="About">
+              <img src="https://images.unsplash.com/photo-1441984904996-e0b6ba687e04?w=600%22" alt="Our Clothing Store">
+              <div class="About-text">
+                <h2>About Us</h2>
+                <p> NovaStore offers stylish, modern, and high-quality products
+                at affordable prices. Our goal is to make online shopping
+                easy and enjoyable for everyone.</p>
+              </div>
+               </section>
+               <!-- product section -->
+                <section class="Products" id="Products">
+                    <h2>Our Products</h2>
+                    <p>Explore our latest collection</p>
+                    <div class="Product-container">
+
+                    <div class="Product">
+                        <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=400%22" alt="Sports Shoes">
+                        <h3>Sports Shoes</h3>
+                        <p>Rs.4,500</p>
+                        <button>Buy Now</button>
+                    </div>
+
+                    <div class="product">
+                <img src="https://images.unsplash.com/photo-1524592094714-0f0654e20314?w=400" alt="Wrist watch">
+                <h3>Wrist Watch</h3>
+                <p>Rs. 6,200</p>
+                <button>Buy Now</button>
+            </div>
+
+             <div class="product">
+                <img src="https://images.unsplash.com/photo-1505740420928-5e560c06d30e?w=400" alt="Headphones">
+                <h3>Headphones</h3>
+                <p>Rs. 8,500</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=400" alt="Handbag">
+                <h3>Handbag</h3>
+                <p>Rs. 5,800</p>
+                <button>Buy Now</button>
+            </div>
+
+                <div class="product">
+                <img src="https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=400" alt="T-shirt">
+                <h3>T-Shirt</h3>
+                <p>Rs. 1,800</p>
+                <button>Buy Now</button>
+            </div>
+
+            <div class="product">
+                <img src="https://images.unsplash.com/photo-1503602642458-232111445657?w=400" alt="Modern chair">
+                <h3>Modern Chair</h3>
+                <p>Rs. 12,500</p>
+                <button>Buy Now</button>
+            </div>
+
+             <div class="product">
+                <img src="https://images.unsplash.com/photo-1541643600914-78b084683601?w=400" alt="Perfume">
+                <h3>Perfume</h3>
+                <p>Rs. 3,900</p>
+                <button>Buy Now</button>
+            </div>
+
+             <div class="product">
+                <img src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?w=400" alt="Digital camera">
+                <h3>Digital Camera</h3>
+                <p>Rs. 15,000</p>
+                <button>Buy Now</button>
+            </div>
+
+                </section>
+                <!-- footer -->
+                 <footer>
+                    <footer class="footer" id="contact">
+                    <p>© 2026 NovaStore. All rights reserved.</p>
+                 </footer>
+</body>
+<script>
+    function toggleMenu(){
+        document.getElementById("navLinks").classList
+        .toggle("active")
+    }
+</script>
+</html>
